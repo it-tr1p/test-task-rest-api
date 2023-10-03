@@ -1,0 +1,7 @@
+.venv
+.env
+.idea
+
+docker-compose-local.yaml
+entrypoint.sh
+Dockerfile
