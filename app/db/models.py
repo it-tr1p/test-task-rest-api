@@ -1,8 +1,7 @@
 from sqlalchemy import Column, Integer, String, DateTime, Text, ForeignKey, func
 from sqlalchemy.orm import relationship
 
-from app.schemas import NoteSchema, BoardSchema
-from app.db.session import Base
+from app.db import Base
 
 
 class Note(Base):

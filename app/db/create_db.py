@@ -1,5 +1,8 @@
-from app.db.session import Base, engine
 import asyncio
+
+from app.db import Base
+from app.db.session import engine
+from app.db.models import Note, Board
 
 
 async def create_db():
